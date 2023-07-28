@@ -312,8 +312,8 @@ function getStyleDictionaryConfig(themeName, themeTokenSets) {
 async function transformTokens() {
   console.log('Build started...');
   console.log('\n==============================================');
-  const themesPath = await asyncGlob('**/$themes.json', { fs, mark: true });
-  const metadataPath = await asyncGlob('**/$metadata.json', { fs, mark: true });
+  const themesPath = await asyncGlob('**/$out.json', { fs, mark: true });
+  const metadataPath = await asyncGlob('**/$out.json', { fs, mark: true });
 
   if (themesPath[0] && metadataPath[0]) {
     const rootFolders = themesPath[0].split('/').slice(0, -1).join('/');
