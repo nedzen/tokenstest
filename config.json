@@ -25,7 +25,7 @@
     },
     "js": {
       "transformGroup": "js",
-      "buildPath": "build/js/",
+      "buildPath": "build/export/",
       "files": [
         {
           "destination": "variables.js",
