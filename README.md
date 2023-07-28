@@ -203,3 +203,8 @@ The html & css files are not meant to be edited. While you can edit them and exp
 ## Style dictionary config
 
 The style dictionary config (transformTokens.js) is read only. Editing this file will not have any effect on the transformed tokens. Start from this and create your own custom SD configuration.
+
+
+----
+https://tokenzengarden.design/explore/e70c7218-8978-4254-967f-4e119219ce5c
+Add iterable code.

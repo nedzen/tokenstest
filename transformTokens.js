@@ -1,3 +1,6 @@
+// example code coming from : 
+// https://tokenzengarden.design/explore/e70c7218-8978-4254-967f-4e119219ce5c
+
 const StyleDictionary = require('style-dictionary');
 const { Parser } = require('expr-eval');
 const { parseToRgba } = require('color2k');
@@ -312,8 +315,8 @@ function getStyleDictionaryConfig(themeName, themeTokenSets) {
 async function transformTokens() {
   console.log('Build started...');
   console.log('\n==============================================');
-  const themesPath = await asyncGlob('**/$out.json', { fs, mark: true });
-  const metadataPath = await asyncGlob('**/$out.json', { fs, mark: true });
+  const themesPath = await asyncGlob('**/$themes.json', { fs, mark: true });
+  const metadataPath = await asyncGlob('**/$metadata.json', { fs, mark: true });
 
   if (themesPath[0] && metadataPath[0]) {
     const rootFolders = themesPath[0].split('/').slice(0, -1).join('/');
