@@ -13,7 +13,7 @@
       "style-dictionary": "^3.7.1"
     },
     "scripts": {
-      "build": "node transformTokens"
+      "build": "node ransformTokens"
     }
   }
   
