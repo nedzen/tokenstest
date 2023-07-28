@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 28 Jul 2023 13:53:13 GMT
+ * Generated on Fri, 28 Jul 2023 13:54:30 GMT
  */
 
 export const PrimitivesSupportiveAlert0 = "#573300";

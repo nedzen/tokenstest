@@ -108,12 +108,10 @@ function transformLetterSpacing(value) {
  * Helper: Transforms letter spacing % to em
  */
 function transformFontWeights(value) {
-  alert('s')
   const mapped = fontWeightMap[value.toLowerCase()];
   // return `${mapped}`;
   return mapped ? `${mapped}` : value;
 }
-alert('ss')
 /**
  * Helper: Transforms hex rgba colors used in figma tokens: rgba(#ffffff, 0.5) =? rgba(255, 255, 255, 0.5). This is kind of like an alpha() function.
  */
@@ -243,7 +241,7 @@ StyleDictionary.registerTransform({
   transformer: (token) => transformFontWeights(token.value),
 });
 
-/**
+/**`
  * Transform rgba colors to usable rgba
  */
 StyleDictionary.registerTransform({
