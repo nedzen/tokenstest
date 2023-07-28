@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 28 Jul 2023 13:20:58 GMT
+ * Generated on Fri, 28 Jul 2023 13:24:49 GMT
  */
 
 export const SupportiveAlert0 = "#573300";
