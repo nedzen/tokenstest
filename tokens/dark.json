@@ -194,7 +194,7 @@
 				"type": "number"
 			}
 		},
-		"tabs": {
+		"tabsmain": {
 			"background": {
 				"value": "{neutrals._20}",
 				"type": "color"
@@ -242,7 +242,7 @@
 				}
 			}
 		},
-		"tabs_secondary": {
+		"tabs": {
 			"background": {
 				"value": "{neutrals.transparent}",
 				"type": "color"
@@ -1113,7 +1113,7 @@
 			}
 		},
 		"Sidebar": {
-			"CT-item": {
+			"item": {
 				"selected": {
 					"background": {
 						"value": "{neutrals._30}",
@@ -1165,7 +1165,7 @@
 					"type": "color"
 				}
 			},
-			"V-tabs": {
+			"verticaltabs": {
 				"active": {
 					"Color": {
 						"value": "{neutrals._160}",
@@ -1224,13 +1224,33 @@
 		},
 		"badge": {
 			"primary": {
-				"background": {
-					"value": "{primary._40 (primary)}",
-					"type": "color"
+				"bold": {
+					"background": {
+						"value": "{primary._40 (primary)}",
+						"type": "color"
+					},
+					"border": {
+						"value": "{primary._100}",
+						"type": "color"
+					},
+					"color": {
+						"value": "{neutrals.white}",
+						"type": "color"
+					}
 				},
-				"color": {
-					"value": "{neutrals.white}",
-					"type": "color"
+				"minimal": {
+					"background": {
+						"value": "{primary._100}",
+						"type": "color"
+					},
+					"border": {
+						"value": "{primary._40 (primary)}",
+						"type": "color"
+					},
+					"color": {
+						"value": "{primary._40 (primary)}",
+						"type": "color"
+					}
 				}
 			}
 		},

@@ -194,7 +194,7 @@
 				"type": "number"
 			}
 		},
-		"tabs": {
+		"tabsmain": {
 			"background": {
 				"value": "{neutrals._120}",
 				"type": "color"
@@ -242,7 +242,7 @@
 				}
 			}
 		},
-		"tabs_secondary": {
+		"tabs": {
 			"background": {
 				"value": "{neutrals.transparent}",
 				"type": "color"
@@ -1113,7 +1113,7 @@
 			}
 		},
 		"Sidebar": {
-			"CT-item": {
+			"item": {
 				"selected": {
 					"background": {
 						"value": "{neutrals._140}",
@@ -1165,7 +1165,7 @@
 					"type": "color"
 				}
 			},
-			"V-tabs": {
+			"verticaltabs": {
 				"active": {
 					"Color": {
 						"value": "{neutrals._1}",
